@@ -17,7 +17,7 @@ typedef Eigen::Vector3d VertexType;
 typedef Eigen::Vector2i PixelPos;
 
 const int kNeighborRange = 5; // boundary pixels' neighbor range
-const int kScaleFactor = 5; // scale coordinate unit in mm
+const int kScaleFactor = 1; // scale coordinate unit in mm
 const float kInfVal = 1000000; // an infinite large value used in MRF optimization
 
 // Camera intrinsic parameters.
